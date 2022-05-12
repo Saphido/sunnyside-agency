@@ -1,0 +1,43 @@
+/* Contiendra tous les sélecteurs des éléments typographiques (titre, blockquote, class spécifique d'un titre etc) */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: $font-body-size;
+    line-height: 1.5; /* en général entre 1.4 et 1.6 pour avoir une line-height correct */
+}
+
+strong {
+    font-weight: bold;
+}
+
+small {
+    font-size: 80%;
+}
+
+em {
+    font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+    color: $title-color;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.65rem;
+}
+
+h3 {
+    font-size: 2.3rem;
+    padding: 32px;
+    margin-bottom: 0px;
+}

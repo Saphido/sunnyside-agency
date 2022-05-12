@@ -1,0 +1,21 @@
+section {
+    flex-grow: 1;
+    flex-basis: 45%;
+    border: 1px $border-color solid;
+    /*
+    Plus besoin de préfixe car le préprocesseur va le faire pour nous
+    -webkit-box-shadow: 10px 10px 15px -4px $text-color;
+    -moz-box-shadow: 10px 10px 15px -4px $text-color;
+    */
+    box-shadow: 10px 10px 15px -4px $text-color;
+    padding: 16px;
+    margin: 16px;
+    clear: both;
+    overflow: auto;
+    box-sizing: border-box;
+
+    &--large {
+        flex-grow: 2;
+        flex-basis: 100%;
+    }
+}

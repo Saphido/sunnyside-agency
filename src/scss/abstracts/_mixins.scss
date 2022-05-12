@@ -1,0 +1,31 @@
+/* Exemple de mixin */
+@mixin row-flex($wrap : wrap,$direction : row) {
+    display: flex;
+    flex-wrap: $wrap;
+    flex-direction : $direction;
+}
+
+/* Une fois le mixin déclaré, il peut être appelé partout avec la syntaxe suivante :
+@include row-flex(); 
+donnera :
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction : row;
+
+
+@include row-flex(nowrap);
+donnera :
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction : row;
+
+@include row-flex(wrap,column);
+donnera :
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction : column;
+
+Les paramètres wrap et column sont optionneles car on a défini une valeur par défaut dans le mixin
+$wrap : wrap et $direction : row
+
+*/
