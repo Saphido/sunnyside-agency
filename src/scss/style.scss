@@ -1,16 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap');
 body {
+    
     width: 1440px;
-    height: 4174;
+    height: 4174px;
 }
-
+a {
+    text-decoration: none;
+}
 .main-header {
-    background: url("/img/orange.png");
+
+    display: flex;
+    background-image: url("/img/orange.png");
     width: 1440px;
     height: 800px;
 }
 
+.main-nav {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 700px;
+
+    position: absolute;
+    width: 1352px;
+    height: 56px;
+    left: 40px;
+    top: 34px;
+}
+
+.main-list {
+            .__links{
+                    position: relative;
+                    top: 15px;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 25px;
+
+                    /* identical to box height, or 139% */
+                    letter-spacing: -0.128571px;
+
+                    color: #FFFFFF;
+            }
+                #__contact {
+
+                    font-family: 'Fraunces 9pt Soft';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+
+                    letter-spacing: -0.107143px;
+                    text-transform: uppercase;
+
+                    color: #24303E;
+
+
+                }
+    display: inline-flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
 #logo {
     width: 170px;
     height: 33px;
-    
+    margin-left: 60px;
+}
+
+#contact-btn {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 28px;
+    width: 140px;
+    height: 56px;
 }
