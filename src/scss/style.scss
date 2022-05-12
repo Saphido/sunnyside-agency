@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap');
+
 body {
-    
-    width: 1440px;
+    width: 100%;
     height: 4174px;
+    margin: 0 auto;
 }
 a {
     text-decoration: none;
@@ -12,7 +13,6 @@ a {
 
     display: flex;
     background-image: url("/img/orange.png");
-    width: 1440px;
     height: 800px;
 }
 
@@ -24,16 +24,14 @@ a {
     gap: 700px;
 
     position: absolute;
-    width: 1352px;
+    width: 80%;
     height: 56px;
     left: 40px;
     top: 34px;
 }
 
 .main-list {
-            .__links{
-                    position: relative;
-                    top: 15px;
+            .__links {
                     font-family: 'Barlow';
                     font-style: normal;
                     font-weight: 600;
@@ -45,20 +43,15 @@ a {
 
                     color: #FFFFFF;
             }
-                #__contact {
-
+                .__links-button {
                     font-family: 'Fraunces 9pt Soft';
                     font-style: normal;
                     font-weight: 700;
                     font-size: 15px;
                     line-height: 25px;
-
                     letter-spacing: -0.107143px;
                     text-transform: uppercase;
-
                     color: #24303E;
-
-
                 }
     display: inline-flex;
     gap: 30px;
@@ -69,7 +62,7 @@ a {
 #logo {
     width: 170px;
     height: 33px;
-    margin-left: 60px;
+    margin-left: 160px;
 }
 
 #contact-btn {
