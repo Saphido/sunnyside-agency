@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
+/*-------------------------------------Body---------------------------------------*/
 body {
-  width: 100%;
+  width: 100vw;
   height: 4174px;
   margin: 0 auto;
 }
@@ -40,6 +41,10 @@ a {
   top: 34px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-list {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -53,8 +58,6 @@ a {
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
-  /* identical to box height, or 139% */
-  letter-spacing: -0.128571px;
   color: #FFFFFF;
 }
 .main-list .__links-button {
@@ -62,7 +65,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
-  line-height: 25px;
+  height: 25px;
   letter-spacing: -0.107143px;
   text-transform: uppercase;
   color: #24303E;
@@ -80,4 +83,95 @@ a {
   border-radius: 28px;
   width: 140px;
   height: 56px;
+}
+
+.main_container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.two-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.two-section .__left {
+  width: 50vw;
+  height: 600px;
+}
+.two-section .__right {
+  width: 50vw;
+  height: 600px;
+}
+
+.gauche {
+  width: 50vw;
+  height: 600px;
+  background-image: url(/img/Cerise.png);
+}
+
+.droite {
+  width: 50vw;
+  height: 600px;
+  background-image: url(/img/Orange_feuille.png);
+}
+
+.container-testimonials {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.person {
+  width: 300px;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+  left: 150px;
+}
+
+.gallery {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #90D4C6;
+}
+
+.footer_logo {
+  color: #2C7566;
+}
+
+.footer_icons_network {
+  color: #2C7566;
 }/*# sourceMappingURL=style.css.map */
